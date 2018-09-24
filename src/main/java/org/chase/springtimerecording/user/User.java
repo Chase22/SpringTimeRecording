@@ -16,7 +16,7 @@ public class User {
     }
 
     public User(UserEntity userEntity) {
-        this.userid = userEntity.getUserid();
+        this.userid = UUID.fromString(userEntity.getUserid());
         this.email = userEntity.getEmail();
     }
 }
