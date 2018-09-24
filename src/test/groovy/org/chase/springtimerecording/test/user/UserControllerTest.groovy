@@ -8,11 +8,11 @@ class UserControllerTest extends AbstractSpec {
     }
 
     def "getAllUser should return a list of User"() {
-        given:
-            
-        when:
 
+        when:
+        String s = "true"
         then:
+        true
 
     }
 }
